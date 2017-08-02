@@ -371,7 +371,6 @@ const ValidateMe = sequelize.define('foo', {
       isDecimal: true,          // checks for any numbers
       isLowercase: true,        // checks for lowercase
       isUppercase: true,        // checks for uppercase
-      notNull: true,            // won't allow null
       isNull: true,             // only allows null
       notEmpty: true,           // don't allow empty strings
       equals: 'specific value', // only allow a specific value
